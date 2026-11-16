@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rudy Ralph sp. z o.o. - spółka holdingowa, Warszawa</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Rudy Ralph sp. z o.o. - spółka holdingowa z Warszawy: inwestycje, zarządzanie aktywami, działalność handlowa, rozwój przedsięwzięć i udziały w innych podmiotach.">
+<meta name="theme-color" content="#14202E">
+<link rel="icon" href="img/znak.svg" type="image/svg+xml">
+<link rel="preload" as="font" type="font/woff2" href="fonts/inter-400-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/bodoni-500-rdzen.woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" href="img/hero-m-720.webp" imagesrcset="img/hero-m-540.webp 540w, img/hero-m-720.webp 720w, img/hero-m-960.webp 960w" imagesizes="100vw" media="(max-width: 900px)" fetchpriority="high">
+<link rel="preload" as="image" type="image/webp" href="img/hero-2000.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w, img/hero-2560.webp 2560w" imagesizes="100vw" media="(min-width: 901px)" fetchpriority="high">
+<style>
+@font-face{font-family:Inter;font-style:normal;font-weight:400;font-display:swap;src:url(fonts/inter-400-rdzen.woff2) format("woff2")}
+@font-face{font-family:Inter;font-style:normal;font-weight:600;font-display:swap;src:url(fonts/inter-600-rdzen.woff2) format("woff2")}
+@font-face{font-family:Bodoni;font-style:normal;font-weight:500;font-display:swap;src:url(fonts/bodoni-500-rdzen.woff2) format("woff2")}
+
+:root{--rudy:#B23A1E;--rudy-d:#93301A;--ink:#14202E;--ink-2:#1D2B3B;--tekst:#2A3542;--szary:#F2F4F6;--linia:#D8DDE3;--bialy:#FFFFFF;--h:72px;--w:1240px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--h);-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--tekst);font:400 17px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:Bodoni,Georgia,"Times New Roman",serif;font-weight:500;color:var(--ink);line-height:1.12;margin:0;letter-spacing:-.005em}
+h2{font-size:clamp(34px,4vw,52px)}
+h3{font-size:clamp(23px,2.1vw,28px)}
+p{margin:0 0 1em}
+.wrap{width:100%;max-width:var(--w);margin:0 auto;padding:0 24px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 26px;background:var(--rudy);color:#fff;font:600 16px/1 Inter,sans-serif;text-decoration:none;border:0;border-radius:0;cursor:pointer;transition:background .2s}
+.btn:hover,.btn:focus-visible{background:var(--rudy-d)}
+.btn .str{width:22px;height:10px;flex:none}
+.uzup{display:inline-block;font-size:14px;line-height:1.5;color:#6A7581;border-left:2px solid var(--rudy);padding:2px 0 2px 12px;margin-top:6px}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--h);background:#fff;border-bottom:1px solid var(--linia)}
+.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:1440px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.logo svg{width:42px;height:42px;flex:none}
+.logo .nazwa{font-family:Bodoni,Georgia,serif;font-size:25px;line-height:1;letter-spacing:.01em}
+.logo .forma{display:block;font:400 12px/1 Inter,sans-serif;color:#6A7581;margin-top:5px;letter-spacing:.02em}
+.menu{display:flex;gap:30px;margin:0;padding:0;list-style:none}
+.menu a{text-decoration:none;font-size:15px;color:var(--ink);padding:8px 0;border-bottom:2px solid transparent;transition:border-color .2s}
+.menu a:hover,.menu a:focus-visible{border-color:var(--rudy)}
+.menu a[aria-current="page"]{border-color:var(--rudy)}
+.burger{display:none;width:48px;height:48px;border:1px solid var(--linia);background:#fff;cursor:pointer;padding:0;position:relative}
+.burger span{position:absolute;left:13px;right:13px;height:2px;background:var(--ink);transition:transform .25s,opacity .2s}
+.burger span:nth-child(1){top:17px}.burger span:nth-child(2){top:23px}.burger span:nth-child(3){top:29px}
+.burger[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+.burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+/* hero */
+.hero{position:relative;min-height:calc(100svh - var(--h));display:flex;overflow:hidden;background:#9DB4CF}
+.hero picture,.hero .tlo{position:absolute;inset:0;width:100%;height:100%}
+.hero .tlo{object-fit:cover;object-position:50% 22%}
+.hero .wrap{position:relative;display:flex;align-items:center;justify-content:flex-end;max-width:1440px}
+.hero .tresc{position:relative;width:min(720px,48%);padding:44px 44px 44px 46px;margin-right:2%;margin-bottom:6vh}
+.hero .tresc::before,.hero .tresc::after{content:"";position:absolute;width:44px;height:44px;border:0 solid var(--rudy)}
+.hero .tresc::before{left:0;top:0;border-left-width:2px;border-top-width:2px}
+.hero .tresc::after{right:0;bottom:0;border-right-width:2px;border-bottom-width:2px}
+.hero h1{font-size:clamp(46px,4.4vw,72px);line-height:1.04;color:var(--ink)}
+.hero .lead{font-size:clamp(17px,1.25vw,19px);color:#1B2836;margin:22px 0 30px;max-width:34em}
+.hero .mail{display:block;margin-top:18px;font-size:15px;color:#1B2836}
+.hero .mail a{text-decoration:none;border-bottom:1px solid rgba(20,32,46,.35)}
+
+/* o spolce */
+.sekcja{padding:clamp(72px,9vw,128px) 0}
+.o-spolce .siatka{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(40px,6vw,96px);align-items:start}
+.o-spolce h2{margin-bottom:28px}
+.o-spolce .tekst p{font-size:19px;max-width:36em}
+.rejestr{border:1px solid var(--linia);padding:32px 32px 18px;position:relative;background:#fff}
+.rejestr::before{content:"";position:absolute;left:-1px;top:-1px;width:28px;height:28px;border-left:2px solid var(--rudy);border-top:2px solid var(--rudy)}
+.rejestr h3{font-size:24px;margin-bottom:18px}
+.rejestr dl{margin:0;display:grid;grid-template-columns:auto 1fr;column-gap:20px}
+.rejestr dt,.rejestr dd{margin:0;padding:11px 0;border-top:1px solid var(--linia);font-size:15.5px}
+.rejestr dt{color:#6A7581}
+.rejestr dd{color:var(--ink);font-weight:600}
+.rejestr .zrodlo{font-size:13px;color:#6A7581;margin:12px 0 0}
+
+/* obszary */
+.obszary{background:var(--szary)}
+.obszary .siatka{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(40px,6vw,96px);align-items:start}
+.obszary .wstep{position:sticky;top:calc(var(--h) + 40px)}
+.obszary .wstep p{margin-top:24px;font-size:18px;max-width:28em}
+.lista{list-style:none;margin:0;padding:0;border-bottom:1px solid #C9D0D8}
+.lista li{display:grid;grid-template-columns:28px 1fr;gap:20px;padding:30px 0;border-top:1px solid #C9D0D8}
+.lista .kw{width:16px;height:16px;border:1.5px solid var(--ink);margin-top:9px;position:relative;transition:background .25s,border-color .25s}
+.lista .kw::after{content:"";position:absolute;right:-6px;bottom:-6px;width:8px;height:8px;background:var(--rudy)}
+.lista li:hover .kw{background:var(--ink)}
+.lista h3{margin-bottom:8px}
+.lista p{margin:0;font-size:16.5px;max-width:38em}
+
+/* projekty */
+.projekty{background:var(--ink);color:#C9D2DC}
+.projekty h2,.projekty h3{color:#fff}
+.projekty .siatka{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,96px);align-items:center}
+.projekty .nad{font-size:15px;color:#9FB0C2;margin:0 0 14px}
+.projekty .opis{font-size:18.5px;margin:26px 0 30px;max-width:32em}
+.karta{border-top:1px solid rgba(255,255,255,.18)}
+.karta div{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.18);font-size:15.5px}
+.karta dt{color:#fff;font-weight:600}
+.karta dd{margin:0;color:#8C9CAD;font-style:italic}
+.okno{width:100%;max-width:460px;justify-self:end}
+.okno svg{width:100%;height:auto;display:block}
+.kolejne{margin-top:clamp(56px,7vw,88px);padding-top:28px;border-top:1px solid rgba(255,255,255,.18);display:flex;flex-wrap:wrap;gap:12px 40px;justify-content:space-between;align-items:baseline}
+.kolejne h3{font-size:26px}
+.kolejne p{margin:0;max-width:40em;font-size:16px}
+
+/* lad korporacyjny */
+.lad .naglowek{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:48px}
+.lad .naglowek p{max-width:30em;margin:0;font-size:17px}
+.lad .siatka{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--linia)}
+.lad .poz{padding:32px 32px 32px 0;border-bottom:1px solid var(--linia)}
+.lad .poz+.poz{padding-left:32px;border-left:1px solid var(--linia)}
+.lad .rola{font-size:14px;color:#6A7581;margin:0 0 12px}
+.lad .osoba{display:flex;gap:18px;align-items:center;margin-bottom:14px}
+.inicjaly{width:64px;height:64px;flex:none;border:1.5px solid var(--ink);display:grid;place-items:center;font:500 24px/1 Bodoni,Georgia,serif;color:var(--ink);position:relative}
+.inicjaly::after{content:"";position:absolute;right:-6px;bottom:-6px;width:10px;height:10px;background:var(--rudy)}
+.lad p{font-size:16px;margin:0}
+
+/* partnerzy */
+.partnerzy{background:var(--szary);padding:0}
+.partnerzy .siatka{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);min-height:640px}
+.partnerzy .foto{position:relative;overflow:hidden}
+.partnerzy .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:40% 50%}
+.partnerzy .tresc{padding:clamp(64px,8vw,112px) clamp(24px,6vw,96px)}
+.partnerzy .tresc>p{font-size:18px;max-width:34em;margin:24px 0 34px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px;max-width:640px}
+form .pelne{grid-column:1/-1}
+label{display:block;font-size:14px;font-weight:600;color:var(--ink);margin-bottom:7px}
+input,select,textarea{width:100%;font:400 16px/1.4 Inter,sans-serif;color:var(--ink);background:#fff;border:1px solid #BCC5CF;border-radius:0;padding:13px 14px;min-height:50px}
+textarea{min-height:120px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--rudy);outline-offset:-1px;border-color:var(--rudy)}
+.zgoda{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;font-weight:400;color:#56616D;line-height:1.5}
+.zgoda input{width:18px;height:18px;min-height:0;margin-top:2px;flex:none;accent-color:var(--rudy)}
+.komunikat{grid-column:1/-1;font-size:15px;color:var(--ink);background:#fff;border-left:3px solid var(--rudy);padding:12px 16px;margin:0}
+
+/* kontakt */
+.kontakt .siatka{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(40px,6vw,96px);align-items:stretch}
+.kontakt h2{margin-bottom:30px}
+.dane{font-size:18px;font-style:normal}
+.dane p{margin:0 0 22px}
+.dane .et{display:block;font-size:14px;color:#6A7581;margin-bottom:2px}
+.dane a{text-decoration:none;border-bottom:1px solid var(--rudy)}
+.mapa{position:relative;min-height:380px;border:1px solid var(--linia);background:var(--szary);overflow:hidden}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapa .zas{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:16px;padding:32px;background:var(--szary)}
+.mapa .zas::after{content:"";position:absolute;right:28px;bottom:28px;width:56px;height:56px;border-right:2px solid var(--rudy);border-bottom:2px solid var(--rudy)}
+.mapa .zas p{margin:0;max-width:24em;font-size:15.5px}
+.mapa .zas button{min-height:46px}
+
+/* stopka */
+.stopka{background:var(--ink);color:#AEB9C5;padding:56px 0 32px;font-size:15px}
+.stopka .gora{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px;padding-bottom:36px;border-bottom:1px solid rgba(255,255,255,.14)}
+.stopka .logo{color:#fff}
+.stopka .logo .forma{color:#8FA0B2}
+.stopka .logo svg .i{fill:#fff}
+.stopka .logo svg .f{stroke:#fff}
+.stopka h3{font:600 14px/1.4 Inter,sans-serif;color:#fff;margin:4px 0 12px}
+.stopka ul{list-style:none;margin:0;padding:0}
+.stopka li{margin:0 0 8px}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff}
+.stopka .dol{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;padding-top:24px;font-size:13.5px}
+.stopka .foto-info{font-size:12.5px;color:#7F8EA0;margin-top:10px}
+
+/* cookies */
+.cookies{position:fixed;left:16px;right:16px;bottom:16px;z-index:60;max-width:720px;margin:0 auto;background:#fff;border:1px solid var(--linia);box-shadow:0 10px 30px rgba(20,32,46,.18);padding:14px 16px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;font-size:14px;line-height:1.45}
+.cookies[hidden]{display:none}
+.cookies p{margin:0;flex:1 1 300px}
+.cookies .przyc{display:flex;gap:8px}
+.cookies button{min-height:40px;padding:0 16px;font:600 14px/1 Inter,sans-serif;cursor:pointer;border:1px solid var(--ink);background:#fff;color:var(--ink)}
+.cookies button.tak{background:var(--ink);color:#fff}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+@media (max-width:1180px){.menu{gap:20px}.menu a{font-size:14px}}
+@media (max-width:1060px){
+  .burger{display:block}
+  .nav{position:fixed;left:0;right:0;top:var(--h);bottom:0;background:#fff;padding:12px 24px 32px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .2s,transform .2s,visibility 0s .2s;overflow:auto}
+  .nav.otwarte{opacity:1;visibility:visible;transform:none;transition:opacity .2s,transform .2s}
+  .menu{flex-direction:column;gap:0}
+  .menu a{display:block;font:500 26px/1.2 Bodoni,Georgia,serif;padding:18px 0;border-bottom:1px solid var(--linia)}
+  .nav .btn{margin-top:28px}
+}
+@media (min-width:1061px){.nav .btn{display:none}}
+@media (max-width:900px){
+  :root{--h:64px}
+  body{font-size:16.5px}
+  .logo svg{width:38px;height:38px}
+  .logo .nazwa{font-size:22px}
+  .hero{min-height:calc(100svh - var(--h))}
+  .hero .tlo{object-position:50% 0}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,32,46,0) 30%,rgba(20,32,46,.55) 52%,rgba(20,32,46,.92) 74%,#14202E 100%)}
+  .hero .wrap{align-items:flex-end;justify-content:flex-start;z-index:1}
+  .hero .tresc{width:100%;margin:0 0 24px;padding:30px 22px 26px 24px;background:linear-gradient(180deg,rgba(20,32,46,0) 0,rgba(20,32,46,.55) 70px,rgba(20,32,46,.75) 100%)}
+  .hero .tresc::before{border-color:#E06A4A}
+  .hero .tresc::after{border-color:#E06A4A}
+  .hero h1{font-size:clamp(36px,10vw,48px);color:#fff}
+  .hero .lead{color:#E3E8EE;margin:16px 0 26px;font-size:16.5px}
+  .hero .mail{color:#C9D2DC}
+  .hero .mail a{border-color:rgba(255,255,255,.4)}
+  .o-spolce .siatka,.obszary .siatka,.projekty .siatka,.kontakt .siatka{grid-template-columns:1fr}
+  .obszary .wstep{position:static}
+  .okno{justify-self:start;max-width:200px;order:-1}
+  .lad .siatka{grid-template-columns:1fr}
+  .lad .poz,.lad .poz+.poz{padding:26px 0;border-left:0}
+  .partnerzy .siatka{grid-template-columns:1fr}
+  .partnerzy .foto{height:300px;position:relative}
+  form{grid-template-columns:1fr}
+  .stopka .gora{grid-template-columns:1fr 1fr}
+  .stopka .gora>div:first-child{grid-column:1/-1}
+}
+@media (max-width:520px){
+  .wrap{padding:0 16px}
+  .rejestr{padding:24px 18px 14px}
+  .rejestr dl{grid-template-columns:1fr}
+  .rejestr dt{padding-bottom:0}
+  .rejestr dd{border-top:0;padding-top:2px}
+  .karta div{grid-template-columns:1fr;gap:2px}
+  .lista li{grid-template-columns:22px 1fr;gap:14px}
+  .logo .forma{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Rudy Ralph - strona główna"><svg viewBox="0 0 100 100" aria-hidden="true"><rect class="f" x="5" y="5" width="90" height="90" fill="none" stroke="#14202E" stroke-width="3"/><path class="i" fill="#14202E" d="M41.9 49.8V49.2H33.6Q30.9 49.2 29.1 48.1Q27.2 47 26.2 44.9Q25.3 42.8 25.3 39.7Q25.3 36.5 26.2 34.4Q27.2 32.3 29.1 31.2Q30.9 30.1 33.6 30.1H52V29H33.2Q28.9 29 25.6 30.1Q22.4 31.3 20.6 33.7Q18.8 36 18.8 39.7Q18.8 43.3 20.4 45.5Q22.1 47.8 25.4 48.8Q28.6 49.8 33.2 49.8ZM52 71V69.9H33.7V71ZM46 70.4V29.7H39.8V70.4ZM19.5 71.3Q22.1 71.3 23.5 70.4Q24.9 69.5 25.6 68Q26.3 66.5 26.4 64.7Q26.6 62.8 26.6 60.8Q26.6 58.8 26.8 56.9Q27 55.1 27.7 53.6Q28.3 52.1 29.8 51.2Q31.2 50.3 33.8 50.3H41.9V49.7H31.8Q27.8 49.7 25.5 50.8Q23.1 51.9 21.9 53.7Q20.8 55.5 20.4 57.7Q20 59.9 19.9 62Q19.9 64.2 19.8 66Q19.7 67.8 19.2 68.9Q18.7 70 17.2 70Q16.3 70 15.6 69.8Q14.9 69.6 14.4 69.3L14 70.4Q14.7 70.7 16.1 71Q17.6 71.3 19.5 71.3Z"/><path fill="#B23A1E" d="M58.1 49.8V49.2H66.4Q69.1 49.2 70.9 48.1Q72.8 47 73.8 44.9Q74.7 42.8 74.7 39.7Q74.7 36.5 73.8 34.4Q72.8 32.3 70.9 31.2Q69.1 30.1 66.4 30.1H48V29H66.8Q71.1 29 74.4 30.1Q77.6 31.3 79.4 33.7Q81.2 36 81.2 39.7Q81.2 43.3 79.6 45.5Q77.9 47.8 74.6 48.8Q71.4 49.8 66.8 49.8ZM48 71V69.9H66.3V71ZM54 70.4V29.7H60.2V70.4ZM80.5 71.3Q77.9 71.3 76.5 70.4Q75.1 69.5 74.4 68Q73.7 66.5 73.6 64.7Q73.4 62.8 73.4 60.8Q73.4 58.8 73.2 56.9Q73 55.1 72.3 53.6Q71.7 52.1 70.2 51.2Q68.8 50.3 66.2 50.3H58.1V49.7H68.2Q72.2 49.7 74.5 50.8Q76.9 51.9 78.1 53.7Q79.2 55.5 79.6 57.7Q80 59.9 80.1 62Q80.1 64.2 80.2 66Q80.3 67.8 80.8 68.9Q81.3 70 82.8 70Q83.7 70 84.4 69.8Q85.1 69.6 85.6 69.3L86 70.4Q85.3 70.7 83.9 71Q82.4 71.3 80.5 71.3Z"/></svg><span><span class="nazwa">Rudy Ralph</span><span class="forma">spółka z o.o.</span></span></a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Menu główne">
+      <ul class="menu">
+        <li><a href="#o-spolce">O spółce</a></li>
+        <li><a href="#obszary">Obszary działalności</a></li>
+        <li><a href="#projekty">Projekty</a></li>
+        <li><a href="#lad">Ład korporacyjny</a></li>
+        <li><a href="#partnerzy">Dla partnerów</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+      <a class="btn" href="mailto:office@rudyralph.eu">office@rudyralph.eu</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" aria-labelledby="h1">
+  <picture>
+    <source media="(max-width: 900px)" type="image/webp" srcset="img/hero-m-540.webp 540w, img/hero-m-720.webp 720w, img/hero-m-960.webp 960w" sizes="100vw">
+    <img class="tlo" src="img/hero-2000.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2000.webp 2000w, img/hero-2560.webp 2560w" sizes="100vw" width="2000" height="1527" alt="Wieżowce biurowe na warszawskiej Woli o zachodzie słońca" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="wrap">
+    <div class="tresc">
+      <h1 id="h1">Jedna struktura, wiele przedsięwzięć.</h1>
+      <p class="lead">Rudy Ralph to spółka holdingowa z siedzibą w Warszawie. Inwestujemy, zarządzamy aktywami, prowadzimy działalność handlową i rozwijamy przedsięwzięcia biznesowe - także poprzez udziały w innych podmiotach.</p>
+      <a class="btn" href="#partnerzy">Współpraca ze spółką <svg class="str" viewBox="0 0 22 10" aria-hidden="true"><path d="M0 5h20M16 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      <span class="mail">Korespondencja: <a href="mailto:office@rudyralph.eu">office@rudyralph.eu</a></span>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja o-spolce" id="o-spolce" aria-labelledby="h-o">
+  <div class="wrap siatka">
+    <div class="tekst">
+      <h2 id="h-o">O spółce</h2>
+      <p>Rudy Ralph działa jako spółka holdingowa. Łączymy kapitał, zarządzanie i działalność handlową w jednej strukturze, a poszczególne przedsięwzięcia prowadzimy tam, gdzie mają najlepsze warunki do rozwoju - bezpośrednio albo przez spółki, w których mamy udziały.</p>
+      <p>Nie zamykamy się w jednej branży. O tym, czy wchodzimy w dany projekt, decyduje jego sens gospodarczy, ludzie, którzy go prowadzą, i to, czy możemy realnie wnieść do niego coś więcej niż kapitał.</p>
+      <span class="uzup">Miejsce na krótką historię spółki i zasady, którymi kieruje się Zarząd - do uzupełnienia na podstawie Pana materiałów.</span>
+    </div>
+    <aside class="rejestr" aria-labelledby="h-rej">
+      <h3 id="h-rej">Dane rejestrowe</h3>
+      <dl>
+        <dt>Firma</dt><dd>Rudy Ralph sp. z o.o.</dd>
+        <dt>KRS</dt><dd>0001038497</dd>
+        <dt>NIP</dt><dd>586 239 29 92</dd>
+        <dt>REGON</dt><dd>525423091</dd>
+        <dt>Kapitał zakładowy</dt><dd>200 000,00 zł</dd>
+        <dt>W rejestrze od</dt><dd>26 maja 2023 r.</dd>
+        <dt>Siedziba</dt><dd>ul. Marcina Kasprzaka 31/119, 01-234 Warszawa</dd>
+      </dl>
+      <p class="zrodlo">Źródło: Krajowy Rejestr Sądowy, stan na 16.11.2026.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="sekcja obszary" id="obszary" aria-labelledby="h-obs">
+  <div class="wrap siatka">
+    <div class="wstep">
+      <h2 id="h-obs">Obszary działalności</h2>
+      <p>Pięć obszarów prowadzonych w ramach jednej spółki - z jednym zarządem i jedną odpowiedzialnością wobec partnerów.</p>
+    </div>
+    <ul class="lista">
+      <li><span class="kw" aria-hidden="true"></span><div><h3>Inwestycje</h3><p>Angażujemy kapitał w przedsięwzięcia, które rozumiemy i które możemy aktywnie wspierać - od pierwszej decyzji po nadzór nad realizacją.</p></div></li>
+      <li><span class="kw" aria-hidden="true"></span><div><h3>Zarządzanie aktywami</h3><p>Zarządzamy majątkiem spółki, w tym nieruchomościami własnymi i dzierżawionymi, dbając o ich wartość i dobre wykorzystanie.</p></div></li>
+      <li><span class="kw" aria-hidden="true"></span><div><h3>Działalność handlowa</h3><p>Prowadzimy działalność handlową i współpracujemy z kontrahentami przy konkretnych, jasno opisanych transakcjach.</p></div></li>
+      <li><span class="kw" aria-hidden="true"></span><div><h3>Rozwój przedsięwzięć</h3><p>Pomagamy nowym przedsięwzięciom przejść od pomysłu do działającej firmy: struktura, finansowanie, zarządzanie.</p></div></li>
+      <li><span class="kw" aria-hidden="true"></span><div><h3>Udziały w innych podmiotach</h3><p>Obejmujemy udziały w spółkach i wspieramy je jako aktywny wspólnik, a nie tylko inwestor finansowy.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekcja projekty" id="projekty" aria-labelledby="h-proj">
+  <div class="wrap">
+    <div class="siatka">
+      <div>
+        <h2 id="h-proj">Projekt EuroWindow 4.0</h2>
+        <p class="opis">Jeden z projektów rozwijanych przez spółkę. W tym miejscu przedstawimy jego cel, zakres, etap realizacji i partnerów - tak, żeby inwestor albo kontrahent w minutę wiedział, o co chodzi.</p>
+        <dl class="karta">
+          <div><dt>Cel</dt><dd>do uzupełnienia</dd></div>
+          <div><dt>Zakres</dt><dd>do uzupełnienia</dd></div>
+          <div><dt>Etap</dt><dd>do uzupełnienia</dd></div>
+          <div><dt>Partnerzy</dt><dd>do uzupełnienia</dd></div>
+        </dl>
+      </div>
+      <div class="okno" aria-hidden="true">
+        <svg viewBox="0 0 400 400"><rect x="20" y="20" width="360" height="360" fill="none" stroke="#fff" stroke-width="2"/><rect x="44" y="44" width="312" height="312" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/><path d="M200 44v312M44 200h312" stroke="rgba(255,255,255,.35)" stroke-width="1"/><rect x="208" y="52" width="140" height="140" fill="#B23A1E"/><rect x="52" y="208" width="140" height="140" fill="none" stroke="rgba(255,255,255,.18)"/><path d="M20 20h60M20 20v60" stroke="#B23A1E" stroke-width="4"/><path d="M380 380h-60M380 380v-60" stroke="#B23A1E" stroke-width="4"/></svg>
+      </div>
+    </div>
+    <div class="kolejne">
+      <h3>Kolejne projekty</h3>
+      <p>Każdy projekt i każda spółka z udziałem Rudy Ralph może mieć własną kartę: opis, etap, kluczowe informacje dla partnerów. Lista rośnie razem z portfelem.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja lad" id="lad" aria-labelledby="h-lad">
+  <div class="wrap">
+    <div class="naglowek">
+      <h2 id="h-lad">Ład korporacyjny</h2>
+      <p>Przejrzysta struktura to podstawa zaufania partnerów. Poniżej skład organów i struktura właścicielska według Krajowego Rejestru Sądowego.</p>
+    </div>
+    <div class="siatka">
+      <div class="poz">
+        <p class="rola">Zarząd</p>
+        <div class="osoba"><span class="inicjaly" aria-hidden="true">KF</span><h3>Krzysztof Fenske</h3></div>
+        <p>Prezes Zarządu</p>
+        <span class="uzup">Zdjęcie i krótki biogram - do uzupełnienia.</span>
+      </div>
+      <div class="poz">
+        <p class="rola">Reprezentacja</p>
+        <h3>Samodzielnie</h3>
+        <p style="margin-top:12px">Do składania oświadczeń w imieniu spółki upoważniony jest każdy członek zarządu samodzielnie.</p>
+      </div>
+      <div class="poz">
+        <p class="rola">Wspólnik</p>
+        <h3>Fenske Investments Group sp. z o.o.</h3>
+        <p style="margin-top:12px">100 udziałów, łącznie 200 000,00 zł - całość kapitału zakładowego.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="partnerzy" id="partnerzy" aria-labelledby="h-part">
+  <div class="siatka">
+    <div class="foto"><img src="img/plac-900.webp" srcset="img/plac-600.webp 600w, img/plac-900.webp 900w" sizes="(max-width:900px) 100vw, 42vw" width="900" height="1418" alt="Plac Europejski w Warszawie, biurowce i zieleń" loading="lazy" decoding="async"></div>
+    <div class="tresc">
+      <h2 id="h-part">Dla partnerów</h2>
+      <p>Rozmawiamy z przedsiębiorcami, inwestorami i kontrahentami, którzy szukają partnera do konkretnego przedsięwzięcia. Najprościej zacząć od krótkiej wiadomości: czego dotyczy propozycja, na jakim jest etapie i czego Państwo oczekują.</p>
+      <form id="formularz" novalidate>
+        <div><label for="f-imie">Imię i nazwisko</label><input id="f-imie" name="imie" autocomplete="name" required></div>
+        <div><label for="f-firma">Firma</label><input id="f-firma" name="firma" autocomplete="organization"></div>
+        <div><label for="f-mail">E-mail</label><input id="f-mail" name="email" type="email" autocomplete="email" required></div>
+        <div><label for="f-rodzaj">Rodzaj współpracy</label><select id="f-rodzaj" name="rodzaj"><option>Inwestycja</option><option>Współpraca handlowa</option><option>Udziały w spółce</option><option>Rozwój przedsięwzięcia</option><option>Inne</option></select></div>
+        <div class="pelne"><label for="f-wiad">Krótki opis propozycji</label><textarea id="f-wiad" name="wiadomosc" required></textarea></div>
+        <div class="pelne"><label class="zgoda"><input type="checkbox" required> Wyrażam zgodę na przetwarzanie moich danych w celu odpowiedzi na wiadomość, zgodnie z polityką prywatności.</label></div>
+        <div class="pelne"><button class="btn" type="submit">Wyślij wiadomość <svg class="str" viewBox="0 0 22 10" aria-hidden="true"><path d="M0 5h20M16 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja kontakt" id="kontakt" aria-labelledby="h-kon">
+  <div class="wrap siatka">
+    <div>
+      <h2 id="h-kon">Kontakt</h2>
+      <address class="dane">
+        <p><span class="et">Siedziba</span>Rudy Ralph sp. z o.o.<br>ul. Marcina Kasprzaka 31/119<br>01-234 Warszawa</p>
+        <p><span class="et">E-mail</span><a href="mailto:office@rudyralph.eu">office@rudyralph.eu</a></p>
+        <p><span class="et">Prezes Zarządu</span>Krzysztof Fenske</p>
+      </address>
+    </div>
+    <div class="mapa" id="mapa">
+      <div class="zas">
+        <p><b>ul. Marcina Kasprzaka 31/119, Warszawa</b><br>Mapa Google wczytuje się po zgodzie na pliki cookies dostawcy.</p>
+        <button class="btn" type="button" data-mapa>Pokaż mapę</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="gora">
+      <div>
+        <a class="logo" href="#top" aria-label="Rudy Ralph - początek strony"><svg viewBox="0 0 100 100" aria-hidden="true"><rect class="f" x="5" y="5" width="90" height="90" fill="none" stroke="#14202E" stroke-width="3"/><path class="i" fill="#14202E" d="M41.9 49.8V49.2H33.6Q30.9 49.2 29.1 48.1Q27.2 47 26.2 44.9Q25.3 42.8 25.3 39.7Q25.3 36.5 26.2 34.4Q27.2 32.3 29.1 31.2Q30.9 30.1 33.6 30.1H52V29H33.2Q28.9 29 25.6 30.1Q22.4 31.3 20.6 33.7Q18.8 36 18.8 39.7Q18.8 43.3 20.4 45.5Q22.1 47.8 25.4 48.8Q28.6 49.8 33.2 49.8ZM52 71V69.9H33.7V71ZM46 70.4V29.7H39.8V70.4ZM19.5 71.3Q22.1 71.3 23.5 70.4Q24.9 69.5 25.6 68Q26.3 66.5 26.4 64.7Q26.6 62.8 26.6 60.8Q26.6 58.8 26.8 56.9Q27 55.1 27.7 53.6Q28.3 52.1 29.8 51.2Q31.2 50.3 33.8 50.3H41.9V49.7H31.8Q27.8 49.7 25.5 50.8Q23.1 51.9 21.9 53.7Q20.8 55.5 20.4 57.7Q20 59.9 19.9 62Q19.9 64.2 19.8 66Q19.7 67.8 19.2 68.9Q18.7 70 17.2 70Q16.3 70 15.6 69.8Q14.9 69.6 14.4 69.3L14 70.4Q14.7 70.7 16.1 71Q17.6 71.3 19.5 71.3Z"/><path fill="#B23A1E" d="M58.1 49.8V49.2H66.4Q69.1 49.2 70.9 48.1Q72.8 47 73.8 44.9Q74.7 42.8 74.7 39.7Q74.7 36.5 73.8 34.4Q72.8 32.3 70.9 31.2Q69.1 30.1 66.4 30.1H48V29H66.8Q71.1 29 74.4 30.1Q77.6 31.3 79.4 33.7Q81.2 36 81.2 39.7Q81.2 43.3 79.6 45.5Q77.9 47.8 74.6 48.8Q71.4 49.8 66.8 49.8ZM48 71V69.9H66.3V71ZM54 70.4V29.7H60.2V70.4ZM80.5 71.3Q77.9 71.3 76.5 70.4Q75.1 69.5 74.4 68Q73.7 66.5 73.6 64.7Q73.4 62.8 73.4 60.8Q73.4 58.8 73.2 56.9Q73 55.1 72.3 53.6Q71.7 52.1 70.2 51.2Q68.8 50.3 66.2 50.3H58.1V49.7H68.2Q72.2 49.7 74.5 50.8Q76.9 51.9 78.1 53.7Q79.2 55.5 79.6 57.7Q80 59.9 80.1 62Q80.1 64.2 80.2 66Q80.3 67.8 80.8 68.9Q81.3 70 82.8 70Q83.7 70 84.4 69.8Q85.1 69.6 85.6 69.3L86 70.4Q85.3 70.7 83.9 71Q82.4 71.3 80.5 71.3Z"/></svg><span><span class="nazwa">Rudy Ralph</span><span class="forma">spółka z o.o.</span></span></a>
+        <p style="margin:18px 0 0;max-width:26em">ul. Marcina Kasprzaka 31/119, 01-234 Warszawa<br><a href="mailto:office@rudyralph.eu">office@rudyralph.eu</a></p>
+      </div>
+      <div>
+        <h3>Spółka</h3>
+        <ul><li><a href="#o-spolce">O spółce</a></li><li><a href="#obszary">Obszary działalności</a></li><li><a href="#projekty">Projekty</a></li></ul>
+      </div>
+      <div>
+        <h3>Informacje</h3>
+        <ul><li><a href="#lad">Ład korporacyjny</a></li><li><a href="#partnerzy">Dla partnerów</a></li><li><a href="#kontakt">Kontakt</a></li></ul>
+      </div>
+    </div>
+    <div class="dol">
+      <div>
+        <span>&copy; <span id="rok">2026</span> Rudy Ralph sp. z o.o. &middot; KRS 0001038497 &middot; NIP 586 239 29 92 &middot; <a href="#">Polityka prywatności</a></span>
+        <p class="foto-info">Podgląd koncepcji, zdjęcia poglądowe z Wikimedia Commons: AGC Glass Europe (CC BY 2.0), LoMit (CC BY-SA 4.0).</p>
+      </div>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=rudyralph.eu&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<div class="cookies" id="cookies" hidden>
+  <p>Strona używa plików cookies tylko wtedy, gdy wyświetli Pan/Pani mapę Google. Bez zgody mapa się nie wczyta.</p>
+  <div class="przyc"><button type="button" data-cookies="nie">Odrzuć</button><button type="button" class="tak" data-cookies="tak">Akceptuję</button></div>
+</div>
+<script>
+(function(){var c=document.getElementById('cookies');var z=null;try{z=localStorage.getItem('rr-zgoda')}catch(e){}if(!z)c.hidden=false})();
+</script>
+<script src="app.js" defer></script>
+</body>
+</html>
